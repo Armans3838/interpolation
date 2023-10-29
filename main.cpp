@@ -1,23 +1,11 @@
 #include <iostream>
 #include <cmath>
-
-using namespace std;
-
-struct point {
-    double x;
-    double y;
-    double z;
-};
-
-#include <iostream>
 #include <vector>
 
 using namespace std;
 
 struct point {
-    double x;
-    double y;
-    double z;
+    double x, y, z;
 };
 
 vector<double> interpolatePoints(point start, point end, int numPoints) {
