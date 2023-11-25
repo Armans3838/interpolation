@@ -49,3 +49,4 @@ std::vector<Point3D> createCorkscrew(double startDist, double endDist, double in
     // Return the resulting vector of points
     return points;
 }
+
